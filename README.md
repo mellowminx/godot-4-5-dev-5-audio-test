@@ -1,4 +1,4 @@
-Godot 4.5 dev5 exported HTML web game crashes in itch.io embed on mobile browser when using audio.
+Godot 4.5 dev5 exported HTML web game crashes in itch.io embed on mobile browser when using audio. "Compatibility" mode used in Godot 4.5 dev5.
 
 I created this simple demo game with buttons that play sounds. The buttons also get pressed automatically in order to keep playing sound.
 
@@ -14,7 +14,7 @@ Tested on iOS Chrome and Safari
 
 ---
 
-I also replicated this same demo game in Godot 3.5.3. The exported HTML web game embedded on itch.io seems to run with no issues:
+I also replicated this same demo game in Godot 3.5.3. The exported HTML web game embedded on itch.io seems to run with no issues. "OpenGL ES 2.0" mode used in Godot 3.5.3:
 
 Demo: https://github.com/mellowminx/godot-3-5-3-audio-test
 

@@ -23,3 +23,7 @@ Password: godot
 Project files: https://github.com/mellowminx/godot-3-5-3-audio-test
 
 Tested on iOS Chrome
+
+---
+
+Note: I also tried exporting with Godot 4.4.1 and it seems to have the same issue with the web game's audio on mobile browser.

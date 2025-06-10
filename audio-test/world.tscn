@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=3 uid="uid://bajjy0vkb1wlt"]
+
+[ext_resource type="Script" uid="uid://dagmy7nvrohxd" path="res://world.gd" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://cs7m565s2h2h6" path="res://button.tscn" id="2_fj7yv"]
+
+[node name="world" type="Control"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_f3sb7")
+
+[node name="button-container" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 3
+
+[node name="button1" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+
+[node name="button2" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+audio_type = "click1"
+
+[node name="button3" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+audio_type = "click2"
+
+[node name="button4" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+audio_type = "dig"
+
+[node name="button5" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+audio_type = "pluck"
+
+[node name="button6" parent="button-container" instance=ExtResource("2_fj7yv")]
+layout_mode = 2
+audio_type = "pop"

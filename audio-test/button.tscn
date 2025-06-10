@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cs7m565s2h2h6"]
+
+[ext_resource type="Texture2D" uid="uid://cpb6ijcasg2hq" path="res://button-normal.png" id="1_n4tde"]
+[ext_resource type="Texture2D" uid="uid://cd4a5tv0ytdfb" path="res://button-pressed.png" id="2_vxja4"]
+[ext_resource type="Script" uid="uid://ckk7whw243p8s" path="res://button.gd" id="3_vxja4"]
+
+[node name="button" type="TextureButton"]
+toggle_mode = true
+action_mode = 0
+texture_normal = ExtResource("1_n4tde")
+texture_pressed = ExtResource("2_vxja4")
+script = ExtResource("3_vxja4")
+
+[node name="audio" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="toggled" from="." to="." method="_on_toggled"]

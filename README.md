@@ -22,8 +22,20 @@ Password: godot
 
 Project files: https://github.com/mellowminx/godot-3-5-3-audio-test
 
-Tested on iOS Chrome
+Tested on iOS Chrome for about 30 mins
 
 ---
 
-Note: I also tried exporting with Godot 4.4.1 and it seems to have the same issue with the web game's audio on mobile browser.
+Note: I also tried exporting with Godot 4.4.1 and it seems to have the same issue with the web game's audio on mobile browser. I also tried exporting using Godot 4.2.2, but the game wouldn't even load due to a SharedBufferArray error.
+
+---
+
+Update: I tried exporting with Godot 4.3 and it seems to work!
+
+Demo: https://mellowminx.itch.io/audio-test-godot-4-3
+
+Password: godot
+
+Project files: https://github.com/mellowminx/godot-4-3-audio-test
+
+Tested on iOS Chrome for about 15 mins
